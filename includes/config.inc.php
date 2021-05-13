@@ -1,9 +1,9 @@
 <?php
   session_start();
   $servername = "remotemysql.com"; //localhost id
-  $dBUsername = "root"; //Database Username
-  $dBPassword = "root"; //Database Password : Default-root
-  $dBName = "shareboard"; //Database name
+  $dBUsername = "yfcl0GbQcA"; //Database Username
+  $dBPassword = "d6Twt4RKdK"; //Database Password : Default-root
+  $dBName = "yfcl0GbQcA"; //Database name
  // session_start();
   $conn=mysqli_connect($servername, $dBUsername, $dBPassword, $dBName);
 
