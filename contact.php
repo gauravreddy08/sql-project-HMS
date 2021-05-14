@@ -191,7 +191,7 @@ if(isset($_POST['submit'])){
     $today_date =  date("Y-m-d");
     $time = date("h:i A");
 
-	$query = "INSERT INTO Message (sender_id,receiver_id,hostel_id,subject_h,message,msg_date,msg_time) VALUES ('$roll','$hos_man_id','$hostel_id','$subject','$message','$today_date','$time')";
+	$query = "INSERT INTO Message(sender_id,hostel_id,subject_h,message,msg_date,msg_time) VALUES ('$roll','$hostel_id','$subject','$message','$today_date','$time')";
     $result = mysqli_query($conn,$query);
     if($result){
          echo "<script type='text/javascript'>alert('Message sent Successfully!')</script>";
